@@ -18,4 +18,4 @@ const Client = ({ client }) => {
   );
 };
 
-export default Client;
+export default Client;   
