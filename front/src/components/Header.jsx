@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
-  
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
@@ -28,9 +28,9 @@ const Header = () => {
               </Link>
             </li>
             <li className={(nav) => (nav.isActive ? "active" : "")}>
-              <Link className="nav-link" to="/test">
-                Test
-              </Link>
+              <NavLink className="nav-link" to="/clients/ajout">
+                Ajout
+              </NavLink>
             </li>
           </ul>
         </div>
